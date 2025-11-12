@@ -7,3 +7,5 @@ friends[0] = "Grapes" # Unlike Strings, Lists are mutable
 print(friends[0])
 
 print(friends[6])
+print(friends[1:6])
+print(friends[1:4])
