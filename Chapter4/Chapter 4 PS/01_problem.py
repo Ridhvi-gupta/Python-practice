@@ -1,4 +1,4 @@
-fruits = []
+fruits = [] #Empty List
 
 f1 = input("Enter Fruit name: ")
 fruits.append(f1)   
