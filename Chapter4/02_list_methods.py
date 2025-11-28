@@ -14,4 +14,5 @@ print(value)
 # l1.pop(3)  # Removes element at index 3
 # print(l1.pop(3))
 print(l1)
-
+l1.remove(62)  # Removes 62 from the list
+print(l1)
