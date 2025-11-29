@@ -1,3 +1,5 @@
+d = {} # Empty dictionary
+print(type(d))
 marks = {
     "Harry": 100,
     "Shubham": 56,
