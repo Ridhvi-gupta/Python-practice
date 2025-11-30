@@ -1,3 +1,4 @@
+# Nothing will happen. The values can be same.
 d = {}
 
 name = input("Enter friends name: ")

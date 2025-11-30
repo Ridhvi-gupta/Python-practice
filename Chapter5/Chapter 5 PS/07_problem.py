@@ -1,3 +1,4 @@
+# The values entered later will be updated
 d = {}
 
 name = input("Enter friends name: ")
