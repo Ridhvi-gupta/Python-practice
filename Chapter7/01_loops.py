@@ -4,7 +4,7 @@ print(3)
 print(4)
 print(5)
 
-# The same task can be done like this:
+# The same task can be done like this using for :
 for i in range(1,6):
     print(i)
 
