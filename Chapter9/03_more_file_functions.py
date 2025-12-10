@@ -15,10 +15,10 @@ f = open("file.txt")
 # # print(line5, type(line5))
 # print(line5 =="") # True, empty string
 
-##  This can be done with the help of a loop, as above code is very cumbersome process  
+##  This can be done with the help of a loop, as above code is very cumbersome process, line will keep on printing until there are no more lines to read  
 line = f.readline()
-while f.readline():
+while(line != ""):  # while line is not empty
     print(line)
-
+    line = f.readline()
 
 f.close()
