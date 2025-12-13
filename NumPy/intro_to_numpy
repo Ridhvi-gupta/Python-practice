@@ -1,0 +1,9 @@
+import numpy as np
+# print(np.__version__) # To check the version of numpy installed
+# my_list = [1, 2, 3, 4]
+# my_list = my_list * 2  # This will repeat the list elements
+
+array = np.array([1, 2, 3, 4]) # Creating a numpy array
+array = array * 2  # This will multiply each element by 2
+print(array) # Output: [2 4 6 8]
+print(type(array)) # To confirm that 'array' is indeed a numpy array that is <class 'numpy.ndarray'>

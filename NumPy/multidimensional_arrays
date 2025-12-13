@@ -1,0 +1,27 @@
+# Working with multidimensional arrays using numpy\
+import numpy as np
+
+# array = np.array('A')  # Creating a 0-dimensional array and output is 0
+# array = np.array(['A', 'B', 'C'])  # Creating a 1-dimensional array like a single row and output is 1
+# array = np.array([['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']])  # Creating a 2-dimensional array and output is 2
+# array = np.array([['A', 'B', 'C'], 
+#                   ['D', 'E', 'F'],
+#                   ['G', 'H', 'I']])  # Creating a 2-dimensional array by forming a sort of 2D matrix and output is 2
+array = np.array([[['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']],
+                [['J', 'K', 'L'], ['M', 'N', 'O'], ['P', 'Q', 'R']],
+                [['S', 'T', 'U'], ['V', 'W', 'X'], ['Y', 'Z', ' ']]])  # Creating a 3-dimensional array and output is 3
+# print(array.ndim) # Output the number of dimensions of the array
+
+# print(array.shape)  # Output the shape of the array  , the shape attribute returns a tuple representing the dimensions of the array,that is the depth (no of layers), no of rows, no of columns
+
+print(array[0][0][0])  # Accessing elements in a 3-dimensional array, output is A by chaining indexing
+
+# Multidimensional indexing using comma-separated indices:
+print(array[0, 0, 0]) # Accessing elements in a 3-dimensional array, output is A
+print(array[0, 0, 1]) # Accessing elements in a 3-dimensional array, output is B
+print(array[0, 0, 2]) # Accessing elements in a 3-dimensional array, output is C
+
+print(array[0, 0, 3]) # This will raise an IndexError because index 3 is out of bounds for axis 2 with size 3
+print(array[0, 1, 0]) # Accessing elements in a 3-dimensional array, output is D
+print(array[0, 1, 1]) # Accessing elements in a 3-dimensional array, output is E
+print(array[1, 1, 1]) # Accessing elements in a 3-dimensional array, output is N
