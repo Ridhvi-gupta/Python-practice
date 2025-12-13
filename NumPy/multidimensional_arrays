@@ -16,7 +16,7 @@ array = np.array([[['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']],
 
 print(array[0][0][0])  # Accessing elements in a 3-dimensional array, output is A by chaining indexing
 
-# Multidimensional indexing using comma-separated indices:
+## Multidimensional indexing using comma-separated indices:
 print(array[0, 0, 0]) # Accessing elements in a 3-dimensional array, output is A
 print(array[0, 0, 1]) # Accessing elements in a 3-dimensional array, output is B
 print(array[0, 0, 2]) # Accessing elements in a 3-dimensional array, output is C
@@ -25,3 +25,4 @@ print(array[0, 0, 3]) # This will raise an IndexError because index 3 is out of 
 print(array[0, 1, 0]) # Accessing elements in a 3-dimensional array, output is D
 print(array[0, 1, 1]) # Accessing elements in a 3-dimensional array, output is E
 print(array[1, 1, 1]) # Accessing elements in a 3-dimensional array, output is N
+
