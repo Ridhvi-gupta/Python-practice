@@ -5,10 +5,7 @@
 # print(t)
 
 
-d 
+
 a = 31.2
- 
-
-
-
+print(type(a))
  
