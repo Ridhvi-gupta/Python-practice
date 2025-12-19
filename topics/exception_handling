@@ -17,3 +17,5 @@ except ValueError:
 
 except IndexError:
     print("Index Error")
+
+# There are different toes of exceptions in python like ZeroDivisionError, FileNotFoundError, TypeError, etc.
