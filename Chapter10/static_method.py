@@ -1,0 +1,1 @@
+# Function that does not use the self parameter
