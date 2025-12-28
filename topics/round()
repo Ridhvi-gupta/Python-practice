@@ -1,0 +1,6 @@
+# round() is a built-in function in python, it is used to round numbers.
+
+number = 111.23
+rounded_number = round(number)
+print(rounded_number)  # Output: 111
+print(round(-3.2))  # Output: -3 
