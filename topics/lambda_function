@@ -1,0 +1,13 @@
+# Lambda functions are anonymous functions means functions without a name.
+# lambda arguments : expression
+
+check = lambda x: "Even" if x% 2 == 0 else "Odd"
+print(check(5))  # Output: Odd
+print(check(10)) # Output: Even
+
+# lambda function is also used for returning multiple results
+calc = lambda x, y: (x + y, x * y)
+res = calc(3, 4)
+print(res)  # Output: (7, 12)
+
+# Lambda functions are often used with built-in functions like map(), filter(), and reduce()
