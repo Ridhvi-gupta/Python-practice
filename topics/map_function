@@ -2,3 +2,8 @@ s = ['1', '2', '3', '4']
 res = map(int, s)
 print(list(res))  # Output: [1, 2, 3, 4]
 
+
+def myfunc(n):
+    return len(n)
+x = map(myfunc, ('apple', 'banana', 'cherry'))
+print(list(x))  # Output: [5, 6, 6]
