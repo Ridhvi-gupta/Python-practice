@@ -1,0 +1,6 @@
+# A date in python is not a data type of its own, but a module named datetime is imported to work with date objects.
+
+import datetime
+# Creating a date object
+x = datetime.datetime.now()
+print(x)  # Output: Current date and time
