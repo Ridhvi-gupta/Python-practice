@@ -4,3 +4,7 @@ import datetime
 # Creating a date object
 x = datetime.datetime.now()
 print(x)  # Output: Current date and time
+# Date output
+print(x.year)  # Output: Current year
+print(x.month)  # Output: Current month
+print(x.strftime("%A"))  # Output: Current day of the week
