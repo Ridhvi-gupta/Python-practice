@@ -1,0 +1,17 @@
+# None is a special constatnt in python that represents the absence of a value.
+x = None
+print(x)  # Output: None
+
+print(bool(None))  # Output: False
+
+result = None
+if result is None:
+  print("No result yet")
+else:
+  print("Result is ready")  # Output: No result yet
+
+  result = None
+if result is not None:
+  print("Result is ready")
+else:
+  print("No result yet")  # Output: No result yet
