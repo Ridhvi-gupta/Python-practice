@@ -3,3 +3,8 @@
 import re
 txt = "The rain in Spain"
 x = re.search("^The.*Spain$", txt)
+
+# findall() function that returns a list containing all matches
+txt = "The rain in Spain"
+x = re.findall("ai", txt)
+print(x) 
