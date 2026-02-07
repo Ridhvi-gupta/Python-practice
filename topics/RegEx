@@ -10,7 +10,7 @@ x = re.findall("ai", txt)
 print(x) 
 
 # search function
-x = re.search("\s, txt)
+x = re.search("\s", txt)
 print("The first white-space character is located in position:", x.start())
 
 # split() function
