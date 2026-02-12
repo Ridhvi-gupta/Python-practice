@@ -1,0 +1,17 @@
+# In Python, decorators are flexible way to modify or extend behavior of functions or methods, without changing their actual code.
+
+def decorator(func):
+    def wrapper():
+        print("Before calling the function.")
+        func()
+        print("After calling the function.")
+    return wrapper
+
+@decorator # Applying the decorator to a function
+def greet():
+    print("Hello, World!")
+greet()
+# output is : 
+Before calling the function.
+Hello, World!
+After calling the function.
