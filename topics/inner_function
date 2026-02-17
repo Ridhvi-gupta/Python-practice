@@ -1,3 +1,4 @@
+# Also known as nested functions, inner functions are defined within another function. They can access variables from the outer function's scope. Here's an example:
 def fun1(msg):  # outer function
     def fun2():  # inner function
         print(msg)  # access variable from outer scope
