@@ -14,3 +14,9 @@ def fun1():
     fun2()
     print(a)
 fun1()
+
+def process_data(data):
+    def clean_data():
+        return [item.strip() for item in data] 
+    return clean_data()
+print(process_data(["  Python  ", "  Inner Function  "]))
