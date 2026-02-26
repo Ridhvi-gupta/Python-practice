@@ -1,0 +1,4 @@
+# Python Directory Management refers to creating, deleting, navigating, renaming, and listing directories programmatically. 
+import os
+print("String format :", os.getcwd())
+print("Byte string format :", os.getcwdb())
