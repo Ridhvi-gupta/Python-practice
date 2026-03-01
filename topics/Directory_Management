@@ -7,3 +7,8 @@ print("Byte string format :", os.getcwdb())
 import os
 print("String format :", os.getcwd())
 print("Byte string format :", os.getcwdb())
+
+import os
+print("Current directory :", os.getcwd())
+os.chdir('/home/nikhil/Desktop/') # Changing directory
+print("Current directory :", os.getcwd())
