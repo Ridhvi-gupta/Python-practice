@@ -12,3 +12,11 @@ import os
 print("Current directory :", os.getcwd())
 os.chdir('/home/nikhil/Desktop/') # Changing directory
 print("Current directory :", os.getcwd())
+
+import os
+
+# Simple rename
+os.rename("my_directory", "renamed_directory")
+
+# Rename and create missing parent directories if needed
+os.renames("old_dir", "new_parent/new_child/renamed_directory")
