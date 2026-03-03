@@ -20,3 +20,11 @@ os.rename("my_directory", "renamed_directory")
 
 # Rename and create missing parent directories if needed
 os.renames("old_dir", "new_parent/new_child/renamed_directory")
+
+import os
+dir_path = "k:/files"
+if not os.listdir(dir_path):
+    os.rmdir(dir_path)
+    print("Directory removed successfully")
+else:
+    print("Error! Directory not empty.")
