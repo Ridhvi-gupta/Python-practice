@@ -28,3 +28,11 @@ if not os.listdir(dir_path):
     print("Directory removed successfully")
 else:
     print("Error! Directory not empty.")
+
+import os
+
+cwd = '/'
+print(os.path.isdir(cwd))  # True if cwd is a directory
+
+other = 'K:/'
+print(os.path.isdir(other))  # Checks another directory
