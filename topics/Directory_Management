@@ -50,3 +50,14 @@ for dirpath, dirnames, filenames in os.walk(os.getcwd()):
         total_size += os.path.getsize(fp)
 
 print("Total directory size:", total_size, "bytes")
+
+
+import time
+import os
+# Get times
+access_time = os.path.getatime("/")
+modification_time = os.path.getmtime("/")
+
+# Convert to readable format
+print("Access Time:", time.ctime(access_time))
+print("Modification Time:", time.ctime(modification_time))
