@@ -61,3 +61,7 @@ modification_time = os.path.getmtime("/")
 # Convert to readable format
 print("Access Time:", time.ctime(access_time))
 print("Modification Time:", time.ctime(modification_time))
+
+import shutil
+shutil.copytree("source_dir", "destination_dir", dirs_exist_ok=True)
+print("Directory copied successfully")
