@@ -65,3 +65,7 @@ print("Modification Time:", time.ctime(modification_time))
 import shutil
 shutil.copytree("source_dir", "destination_dir", dirs_exist_ok=True)
 print("Directory copied successfully")
+
+import shutil
+shutil.rmtree("destination_dir")
+print("Directory removed successfully")
