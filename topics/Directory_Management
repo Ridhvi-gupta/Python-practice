@@ -69,3 +69,7 @@ print("Directory copied successfully")
 import shutil
 shutil.rmtree("destination_dir")
 print("Directory removed successfully")
+
+import shutil
+shutil.move("source_dir", "new_location")
+print("Directory moved successfully")
