@@ -73,3 +73,6 @@ print("Directory removed successfully")
 import shutil
 shutil.move("source_dir", "new_location")
 print("Directory moved successfully")
+
+import os
+print("Files in CWD are :", os.listdir(os.getcwd()))
