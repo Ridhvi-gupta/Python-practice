@@ -3,6 +3,10 @@ import os
 print("String format :", os.getcwd())
 print("Byte string format :", os.getcwdb())
 
+import os
+os.mkdir("my_directory")  # single directory
+os.makedirs("parent_directory/child_directory")  # nested directories
+
 
 import os
 print("String format :", os.getcwd())
