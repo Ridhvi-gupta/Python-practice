@@ -1,2 +1,9 @@
 # A heap queue (also called a priority queue) is a special data structure that allows quick access to the smallest (min-heap) or largest (max-heap) element. 
 # Syntax: heapq.heapify(x)
+
+import heapq
+li = [25, 20, 15, 30, 40]
+
+# Convert the list into a heap
+heapq.heapify(li)
+print("Heap queue:", li)
