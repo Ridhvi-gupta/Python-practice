@@ -34,3 +34,14 @@ print(h)
 min = heapq.heappop(h)
 print("Smallest:", min)
 print(h)
+
+import heapq
+
+# Creating a heap
+h = [10, 20, 15, 30, 40]
+heapq.heapify(h)
+
+# Push a new element (5) and pop the smallest element at the same time
+min = heapq.heappushpop(h, 5)
+print(min)
+print(h)
