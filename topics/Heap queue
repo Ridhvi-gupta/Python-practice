@@ -60,6 +60,9 @@ print("3 largest elements:", maxi)
 min = heapq.nsmallest(3, h)
 print("3 smallest elements:", min)
 
+
+# heapq.heapreplace() function is a combination of pop and push. It pops smallest element from the heap and inserts a new element into the heap, maintaining the heap property.
+
 import heapq
 
 # Creating a heap
@@ -77,3 +80,4 @@ h2 = [2, 4, 6, 8]
 # Merging the lists
 h3 = list(heapq.merge(h1, h2))
 print("Merged heap:", h3)
+
