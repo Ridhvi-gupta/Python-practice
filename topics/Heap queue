@@ -62,6 +62,7 @@ print("3 smallest elements:", min)
 
 
 # heapq.heapreplace() function is a combination of pop and push. It pops smallest element from the heap and inserts a new element into the heap, maintaining the heap property.
+# heapq.merge() function is used to merge multiple sorted iterables into a single sorted heap.
 
 import heapq
 
