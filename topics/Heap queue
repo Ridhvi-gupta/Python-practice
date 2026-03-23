@@ -46,6 +46,9 @@ min = heapq.heappushpop(h, 5)
 print(min)
 print(h)
 
+# heapq.nlargest(n, iterable) returns the n largest elements from the iterable.
+# heapq.nsmallest(n, iterable) returns the n smallest elements from the iterable.
+
 import heapq
 
 # Creating a heap
