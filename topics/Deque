@@ -1,1 +1,8 @@
 # A deque stands for Double-Ended Queue. It is a special type of data structure that allows you to add and remove elements from both ends efficiently.
+
+from collections import deque 
+    
+# Declaring deque 
+de = deque(['name','age','DOB'])  
+    
+print(de)
