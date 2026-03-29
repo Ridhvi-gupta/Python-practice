@@ -71,3 +71,5 @@ print(dq)
 # 3. Reversing the deque
 dq.reverse()  # Reverse the deque
 print(dq)
+
+# append(x)	Adds x to the right end of the deque.	
