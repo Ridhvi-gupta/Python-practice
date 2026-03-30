@@ -73,3 +73,4 @@ dq.reverse()  # Reverse the deque
 print(dq)
 
 # append(x)	Adds x to the right end of the deque.	
+# appendleft(x)	Adds x to the left end of the deque.
