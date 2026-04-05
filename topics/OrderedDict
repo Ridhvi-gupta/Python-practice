@@ -8,6 +8,7 @@ od['cherry'] = 3
 
 print(list(od.items())) # Output : [('apple', 1), ('banana', 2), ('cherry', 3)]\
 
+
 from collections import OrderedDict
 
 print("dict")
@@ -19,6 +20,7 @@ d['d'] = 4
 for key, val in d.items():
     print(key, val)
 
+
 print("ordered dict")
 od = OrderedDict()
 od['d'] = 4
@@ -28,14 +30,25 @@ od['c'] = 3
 for key, val in od.items():
     print(key, val)
 
+
 from collections import OrderedDict
 
 d = {'a': 1, 'b': 2, 'c': 3}
 for k, v in d.items():
     print(k, v)
 
+
 print("OrderedDict:")
 od = OrderedDict([('d', 4), ('b', 2), ('a', 1), ('c', 3)])
+for k, v in od.items():
+    print(k, v)
+
+
+from collections import OrderedDict
+
+od = OrderedDict([('a', 1), ('b', 2), ('c', 3), ('d', 4)])
+od['c'] = 5  
+
 for k, v in od.items():
     print(k, v)
 
