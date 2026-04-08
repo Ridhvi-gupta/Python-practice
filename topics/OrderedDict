@@ -67,3 +67,10 @@ d2 = OrderedDict(reversed(list(d1.items())))
 
 for k, v in d2.items():
     print(k, v) # Output : c 3, b 2, a 1
+
+
+from collections import OrderedDict
+d = OrderedDict([('a', 1), ('b', 2), ('c', 3)])
+
+res = d.popitem(last=True)  # Remove last inserted item
+print(res)
