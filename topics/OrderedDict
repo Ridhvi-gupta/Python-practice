@@ -30,6 +30,7 @@ od['a'] = 1
 od['c'] = 3
 for key, val in od.items():
     print(key, val)
+    # Output: d 4, b 2, a 1, c 3 (order is preserved as inserted)
 
 
 from collections import OrderedDict
