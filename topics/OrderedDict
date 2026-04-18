@@ -45,6 +45,7 @@ print("OrderedDict:")
 od = OrderedDict([('d', 4), ('b', 2), ('a', 1), ('c', 3)])
 for k, v in od.items():
     print(k, v)
+    # Output: d 4, b 2, a 1, c 3 (order is preserved as inserted)
 
 
 from collections import OrderedDict
