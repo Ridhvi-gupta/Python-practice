@@ -55,6 +55,7 @@ od['c'] = 5
 
 for k, v in od.items():
     print(k, v)
+    # Output : a 1, b 2, c 5, d 4 (order is preserved, 'c' value updated to 5)
 
 
 from collections import OrderedDict
