@@ -1,9 +1,11 @@
 # OrderedDict is a subclass of Python’s built-in dictionary that remembers the order in which keys are inserted. 
 # Order-sensitive equality checks (two OrderedDicts with same items but different order are not equal).
 
-# OrderedDict vs Dict
-# a regular dictionary d, adds keys in order and prints them, showing insertion order .
-# an OrderedDict od with keys added in a different order and prints them, preserving that order exactly.
+# OrderedDict vs Dict :
+# A regular dictionary d, adds keys in order and prints them, showing insertion order .
+# An OrderedDict od with keys added in a different order and prints them, preserving that order exactly.
+
+
 from collections import OrderedDict
 
 od = OrderedDict()
