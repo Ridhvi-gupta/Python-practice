@@ -1,0 +1,1 @@
+# Defaultdict is a subclass of the built-in dict class from the collections module. It automatically assigns a default value to keys that do not exist which means no need to manually check for missing keys and avoid KeyError.
