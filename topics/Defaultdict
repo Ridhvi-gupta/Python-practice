@@ -7,3 +7,5 @@ d['fruits'].append('apple')
 d['vegetables'].append('carrot')
 print(d)
 print(d['juices'])
+# Output : defaultdict(<class 'list'>, {'fruits': ['apple'], 'vegetables': ['carrot']})
+[]
