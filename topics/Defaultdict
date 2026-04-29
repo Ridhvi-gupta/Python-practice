@@ -9,3 +9,6 @@ print(d)
 print(d['juices'])
 # Output : defaultdict(<class 'list'>, {'fruits': ['apple'], 'vegetables': ['carrot']})
 []
+
+# Syntax :
+defaultdict(default_factory)
