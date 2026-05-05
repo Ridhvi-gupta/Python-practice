@@ -36,3 +36,4 @@ from collections import defaultdict
 sd = defaultdict(str)
 sd['greeting'] = 'Hello'
 print(sd)
+# Output : defaultdict(<class 'str'>, {'greeting': 'Hello'})
