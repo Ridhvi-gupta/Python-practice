@@ -8,7 +8,7 @@ d['vegetables'].append('carrot')
 print(d)
 print(d['juices'])
 # Output : defaultdict(<class 'list'>, {'fruits': ['apple'], 'vegetables': ['carrot']})
-[]
+# []
 
 # Syntax :
 defaultdict(default_factory)
@@ -21,7 +21,7 @@ for i in range(5):
 print("Dictionary with values as list:")
 print(d)
 # Output : Dictionary with values as list:
-defaultdict(<class 'list'>, {0: [0], 1: [1], 2: [2], 3: [3], 4: [4]})
+# defaultdict(<class 'list'>, {0: [0], 1: [1], 2: [2], 3: [3], 4: [4]})
 
 from collections import defaultdict
 d = defaultdict(int)
