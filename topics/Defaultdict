@@ -45,3 +45,4 @@ for word in words:
     grouped[word[0]].append(word)
 
 print(grouped)
+# Output : defaultdict(<class 'list'>, {'a': ['apple', 'ant'], 'b': ['banana', 'bat'], 'c': ['carrot', 'cat']})
