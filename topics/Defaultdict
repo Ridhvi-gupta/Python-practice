@@ -46,3 +46,14 @@ for word in words:
 
 print(grouped)
 # Output : defaultdict(<class 'list'>, {'a': ['apple', 'ant'], 'b': ['banana', 'bat'], 'c': ['carrot', 'cat']})
+
+from collections import defaultdict
+d = defaultdict(lambda: "Not Present")
+d["a"] = 1
+d["b"] = 2
+
+print(d.__missing__('x'))
+print(d.__missing__('d'))
+
+# Normal access to existing key
+print(d['a'])
