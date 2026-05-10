@@ -57,3 +57,4 @@ print(d.__missing__('d'))
 
 # Normal access to existing key
 print(d['a'])
+# Output : Not Present Not Present 1
