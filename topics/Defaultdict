@@ -10,8 +10,9 @@ print(d['juices'])
 # Output : defaultdict(<class 'list'>, {'fruits': ['apple'], 'vegetables': ['carrot']})
 # []
 
-# Syntax :
-defaultdict(default_factory)
+
+# Syntax : defaultdict(default_factory)
+
 
 from collections import defaultdict
 d = defaultdict(list)
