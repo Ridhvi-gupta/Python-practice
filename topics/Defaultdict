@@ -41,6 +41,7 @@ sd['greeting'] = 'Hello'
 print(sd)
 # Output : defaultdict(<class 'str'>, {'greeting': 'Hello'})
 
+
 from collections import defaultdict
 words = ["apple", "ant", "banana", "bat", "carrot", "cat"]
 grouped = defaultdict(list)
