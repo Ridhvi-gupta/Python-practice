@@ -41,7 +41,7 @@ sd['greeting'] = 'Hello'
 print(sd)
 # Output : defaultdict(<class 'str'>, {'greeting': 'Hello'})
 
-
+# Grouping Words by First Letter
 from collections import defaultdict
 words = ["apple", "ant", "banana", "bat", "carrot", "cat"]
 grouped = defaultdict(list)
@@ -50,6 +50,7 @@ for word in words:
 
 print(grouped)
 # Output : defaultdict(<class 'list'>, {'a': ['apple', 'ant'], 'b': ['banana', 'bat'], 'c': ['carrot', 'cat']})
+
 
 # For Handling Missing Keys
 from collections import defaultdict
