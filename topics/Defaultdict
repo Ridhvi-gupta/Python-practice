@@ -34,7 +34,7 @@ for i in a:
 print(d)
 # Output : defaultdict(<class 'int'>, {1: 2, 2: 3, 3: 1, 4: 2})
 
-
+# Using str Default Factory
 from collections import defaultdict
 sd = defaultdict(str)
 sd['greeting'] = 'Hello'
