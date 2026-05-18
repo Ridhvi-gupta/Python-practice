@@ -13,7 +13,7 @@ print(d['juices'])
 
 # Syntax : defaultdict(default_factory)
 
-
+#  Using List as Default Factory
 from collections import defaultdict
 d = defaultdict(list)
 for i in range(5):
@@ -23,6 +23,7 @@ print("Dictionary with values as list:")
 print(d)
 # Output : Dictionary with values as list:
 # defaultdict(<class 'list'>, {0: [0], 1: [1], 2: [2], 3: [3], 4: [4]})
+
 
 #  Using int Default Factory
 from collections import defaultdict
