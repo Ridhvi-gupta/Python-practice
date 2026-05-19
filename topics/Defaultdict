@@ -13,6 +13,8 @@ print(d['juices'])
 
 # Syntax : defaultdict(default_factory)
 
+# When you create a defaultdict, you specify a default_factory (a callable).
+
 #  Using List as Default Factory
 from collections import defaultdict
 d = defaultdict(list)
