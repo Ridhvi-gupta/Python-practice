@@ -16,6 +16,8 @@ print(d['juices'])
 # When you create a defaultdict, you specify a default_factory (a callable).
 # If this argument is None, accessing a missing key raises a KeyError.
 
+# Return Value: It returns a dictionary-like object that automatically supplies a default value for missing keys instead of raising KeyError.
+
 #  Using List as Default Factory
 from collections import defaultdict
 d = defaultdict(list)
