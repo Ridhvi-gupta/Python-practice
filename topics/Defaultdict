@@ -49,6 +49,7 @@ sd['greeting'] = 'Hello'
 print(sd)
 # Output : defaultdict(<class 'str'>, {'greeting': 'Hello'})
 
+
 # Grouping Words by First Letter
 from collections import defaultdict
 words = ["apple", "ant", "banana", "bat", "carrot", "cat"]
