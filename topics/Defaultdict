@@ -18,6 +18,7 @@ print(d['juices'])
 
 # Return Value: It returns a dictionary-like object that automatically supplies a default value for missing keys instead of raising KeyError.
 
+
 #  Using List as Default Factory
 from collections import defaultdict
 d = defaultdict(list)
