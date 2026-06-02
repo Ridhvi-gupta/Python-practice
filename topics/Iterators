@@ -39,3 +39,4 @@ while True:
     except StopIteration:
         print("End of iteration")
         break
+# Output : 100 200 300 End of iteration
