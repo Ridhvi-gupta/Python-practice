@@ -40,3 +40,12 @@ while True:
         print("End of iteration")
         break
 # Output : 100 200 300 End of iteration
+
+# Iterable: list
+numbers = [1, 2, 3]
+
+# Iterator: created using iter()
+it = iter(numbers)
+print(next(it)) 
+print(next(it))  
+print(next(it))
