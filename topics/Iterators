@@ -7,6 +7,7 @@ print(next(it))
 print(next(it))
 # Output : GFG
 
+
 class EvenNumbers:
     def __iter__(self):
         self.n = 2  # Start from the first even number
