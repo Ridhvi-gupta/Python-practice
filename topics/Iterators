@@ -9,7 +9,6 @@ print(next(it))
 
 # Creating a custom iterator in Python involves defining a class that implements the __iter__() and __next__() methods according to the Python iterator protocol.
 
-
 class EvenNumbers:
     def __iter__(self):
         self.n = 2  # Start from the first even number
@@ -31,6 +30,8 @@ print(next(it))
 print(next(it)) 
 print(next(it))
 # Output : 2 4 6 8 10
+
+# StopIteration exception is integrated with Python’s iterator protocol. It signals that the iterator has no more items to return. 
 
 li = [100, 200, 300]
 it = iter(li)
