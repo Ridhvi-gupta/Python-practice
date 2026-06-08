@@ -31,7 +31,7 @@ print(next(it))
 print(next(it))
 # Output : 2 4 6 8 10
 
-# StopIteration exception is integrated with Python’s iterator protocol. It signals that the iterator has no more items to return. 
+# StopIteration exception is integrated with Python’s iterator protocol. It signals that the iterator has no more items to return. Once this exception is raised, further calls to next() on the same iterator will continue raising StopIteration.
 
 li = [100, 200, 300]
 it = iter(li)
