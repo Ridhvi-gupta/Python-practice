@@ -55,3 +55,5 @@ print(next(it))
 print(next(it))  
 print(next(it))
 # Output : 1 2 3
+
+# Difference between Iterator and Iterable
