@@ -57,3 +57,4 @@ print(next(it))
 # Output : 1 2 3
 
 # Difference between Iterator and Iterable
+# Although the terms iterator and iterable sound similar, they are not the same.
