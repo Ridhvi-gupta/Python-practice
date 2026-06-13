@@ -60,4 +60,4 @@ print(next(it))
 # Although the terms iterator and iterable sound similar, they are not the same.
 # An iterable is any object that can return an iterator, while an iterator is the actual object that performs iteration one element at a time.
 
-# Examples of Iterable :
+# Examples of Iterable : List, Tuple, String, Dictionary, Set
