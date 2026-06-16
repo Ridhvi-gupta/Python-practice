@@ -62,3 +62,4 @@ print(next(it))
 
 # Examples of Iterable : List, Tuple, String, Dictionary, Set
 # Examples of Iterator : List Iterator, Tuple Iterator, String Iterator, Dictionary Iterator, Set Iterator
+
