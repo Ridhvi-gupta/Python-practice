@@ -1,6 +1,7 @@
 # Python Directory Management refers to creating, deleting, navigating, renaming, and listing directories programmatically. 
 
 # os module provides functions to interact with the operating system, such as managing directories, files, processes and environment variables.
+# A new directory can be created using :
 
 import os
 print("String format :", os.getcwd())
