@@ -4,6 +4,7 @@
 
 # A new directory can be created using :
 # os.mkdir(path): Creates a single directory at the specified path (error if it already exists).
+# os.makedirs(path): Creates a directory along with any missing parent directories.
 import os
 print("String format :", os.getcwd())
 print("Byte string format :", os.getcwdb())
