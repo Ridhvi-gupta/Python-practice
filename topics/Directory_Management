@@ -10,7 +10,7 @@ import os
 os.mkdir("my_directory")  # single directory
 os.makedirs("parent_directory/child_directory")  # nested directories
 
-
+# The current working directory can be obtained using os.getcwd() and os.getcwdb() for string and byte string formats respectively.
 import os
 print("String format :", os.getcwd())
 print("Byte string format :", os.getcwdb())
