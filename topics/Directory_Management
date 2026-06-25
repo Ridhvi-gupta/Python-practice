@@ -14,7 +14,7 @@ os.makedirs("parent_directory/child_directory")  # nested directories
 # Current Working Directory (CWD) is the location from which the Python script is being executed.
 
 # os.getcwd(): Returns the current directory as a normal string.
-# 
+# os.getcwdb(): Returns the current directory as a byte string.
 
 import os
 print("String format :", os.getcwd())
