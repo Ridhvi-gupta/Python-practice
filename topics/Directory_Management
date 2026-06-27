@@ -19,6 +19,9 @@ os.makedirs("parent_directory/child_directory")  # nested directories
 import os
 print("String format :", os.getcwd())
 print("Byte string format :", os.getcwdb())
+
+# Renaming a directory
+
 # Output : String format : /home/guest/sandbox
 # Byte string format : b'/home/guest/sandbox'
 
