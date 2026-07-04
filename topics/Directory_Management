@@ -52,6 +52,7 @@ os.rename("my_directory", "renamed_directory")
 os.renames("old_dir", "new_parent/new_child/renamed_directory")
 
 # Changing Current Working Directory (CWD)
+# os.chdir(path) changes the working directory to the given path.
 
 import os
 dir_path = "k:/files"
