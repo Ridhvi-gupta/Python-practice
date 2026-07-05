@@ -55,6 +55,11 @@ os.renames("old_dir", "new_parent/new_child/renamed_directory")
 # os.chdir(path) changes the working directory to the given path.
 
 import os
+print("Before changing directory:", os.getcwd())
+os.chdir('/home/nikhil/Desktop/')
+print("After changing directory:", os.getcwd())
+
+import os
 dir_path = "k:/files"
 if not os.listdir(dir_path):
     os.rmdir(dir_path)
