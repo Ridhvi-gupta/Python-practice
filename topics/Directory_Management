@@ -43,6 +43,7 @@ print("Current directory :", os.getcwd())
 # os.rename(src, dst): Renames or moves a file/directory.
 # os.renames(src, dst): Same as above, but also creates any missing intermediate directories in the path.
 
+# Listing Files in a Directory :
 import os
 
 # Simple rename
