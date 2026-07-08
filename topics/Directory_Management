@@ -44,6 +44,7 @@ print("Current directory :", os.getcwd())
 # os.renames(src, dst): Same as above, but also creates any missing intermediate directories in the path.
 
 # Listing Files in a Directory :
+# os.listdir(path): Lists all files and subdirectories in the given path (non-recursive).
 import os
 
 # Simple rename
