@@ -46,6 +46,11 @@ print("Current directory :", os.getcwd())
 # Listing Files in a Directory :
 # os.listdir(path): Lists all files and subdirectories in the given path (non-recursive).
 # For recursive listing, use os.walk().
+
+import os
+print("Files in CWD are :", os.listdir(os.getcwd()))
+
+
 import os
 
 # Simple rename
