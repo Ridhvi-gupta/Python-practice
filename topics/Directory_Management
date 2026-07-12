@@ -50,7 +50,7 @@ print("Current directory :", os.getcwd())
 import os
 print("Files in CWD are :", os.listdir(os.getcwd()))
 
-# Output : 
+# Output : Files in CWD are : ['output.txt', 'input.txt', 'driver', 'Solution.py']
 
 import os
 
