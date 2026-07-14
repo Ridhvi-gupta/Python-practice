@@ -53,6 +53,8 @@ print("Files in CWD are :", os.listdir(os.getcwd()))
 # Output : Files in CWD are : ['output.txt', 'input.txt', 'driver', 'Solution.py']
 
 # Removing a directory :
+# os.rmdir(path): Removes a single empty directory.
+
 
 import os
 
