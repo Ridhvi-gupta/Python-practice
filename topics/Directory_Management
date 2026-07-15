@@ -54,8 +54,7 @@ print("Files in CWD are :", os.listdir(os.getcwd()))
 
 # Removing a directory :
 # os.rmdir(path): Removes a single empty directory.
-
-
+# shutil.rmtree(path): Removes a directory and all its contents (use with caution)
 import os
 
 # Simple rename
