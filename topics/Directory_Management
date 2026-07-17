@@ -63,7 +63,8 @@ if not os.listdir(dir_path):
     print("Directory removed successfully")
 else:
     print("Error! Directory not empty.")
-    
+
+# Output :
 import os
 
 # Simple rename
