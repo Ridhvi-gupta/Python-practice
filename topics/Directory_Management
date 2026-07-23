@@ -79,6 +79,11 @@ print(os.path.isdir(other))  # Checks another directory
 # Working with Directories using pathlib :
 # pathlib is a modern, object-oriented alternative to os and os.path.
 
+from pathlib import Path
+Path("my_new_dir").mkdir(exist_ok=True)
+for file in Path(".").iterdir():
+    print(file)
+    
 import os
 
 # Simple rename
