@@ -95,6 +95,8 @@ for dirpath, dirnames, filenames in os.walk(os.getcwd()):
 
 print("Total directory size:", total_size, "bytes")
 
+# Output : Total directory size: 23541 bytes
+
 
 import os
 
