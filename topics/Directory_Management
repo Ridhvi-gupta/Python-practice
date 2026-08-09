@@ -100,6 +100,8 @@ print("Total directory size:", total_size, "bytes")
 
 # Getting ACcess and Modification Times :
 
+# os.path.getatime(path): Returns the last access time of a file or directory as a timestamp
+
 
 import os
 
