@@ -98,6 +98,9 @@ print("Total directory size:", total_size, "bytes")
 # Output : Total directory size: 23541 bytes
 
 
+# Getting ACcess and Modification Times :
+
+
 import os
 
 # Simple rename
