@@ -103,6 +103,16 @@ print("Total directory size:", total_size, "bytes")
 # os.path.getatime(path): Returns the last access time of a file or directory as a timestamp.
 # os.path.getmtime(path): Returns the last modification time as a timestamp.
 
+import time
+import os
+# Get times
+access_time = os.path.getatime("/")
+modification_time = os.path.getmtime("/")
+
+# Convert to readable format
+print("Access Time:", time.ctime(access_time))
+print("Modification Time:", time.ctime(modification_time))
+
 
 import os
 
