@@ -113,6 +113,8 @@ modification_time = os.path.getmtime("/")
 print("Access Time:", time.ctime(access_time))
 print("Modification Time:", time.ctime(modification_time))
 
+# Output : Access Time: Mon Jun  3 12:34:56 2024    
+
 
 import os
 
