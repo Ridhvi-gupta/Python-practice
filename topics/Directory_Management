@@ -118,6 +118,10 @@ print("Modification Time:", time.ctime(modification_time))
 # Shutil module :
 # shutil module is a high-level file and directory management library.
 
+# shutil.copytree():
+# Recursively copies an entire directory tree (source directory and all its contents) to a destination.
+
+
 
 import os
 
