@@ -116,7 +116,7 @@ print("Modification Time:", time.ctime(modification_time))
 # Output : Access Time: Mon Jun  3 12:34:56 2024    
 
 # Shutil module :
-
+# shutil module is a high-level file and directory management library.
 
 
 import os
