@@ -120,6 +120,7 @@ print("Modification Time:", time.ctime(modification_time))
 
 # shutil.copytree():
 # Recursively copies an entire directory tree (source directory and all its contents) to a destination.
+# Raises FileExistsError if the destination exists and dirs_exist_ok is False.
 
 
 
