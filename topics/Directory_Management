@@ -119,8 +119,11 @@ print("Modification Time:", time.ctime(modification_time))
 # shutil module is a high-level file and directory management library.
 
 # shutil.copytree():
+
 # Recursively copies an entire directory tree (source directory and all its contents) to a destination.
 # Raises FileExistsError if the destination exists and dirs_exist_ok is False.
+# Syntax : shutil.copytree(src, dst, dirs_exist_ok=False)
+
 
 
 
