@@ -124,6 +124,10 @@ print("Modification Time:", time.ctime(modification_time))
 # Raises FileExistsError if the destination exists and dirs_exist_ok is False.
 # Syntax : shutil.copytree(src, dst, dirs_exist_ok=False)
 
+import shutil
+shutil.copytree("source_dir", "destination_dir", dirs_exist_ok=True)
+print("Directory copied successfully")
+
 
 
 
