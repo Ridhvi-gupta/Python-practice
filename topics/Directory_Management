@@ -129,6 +129,7 @@ shutil.copytree("source_dir", "destination_dir", dirs_exist_ok=True)
 print("Directory copied successfully")
 
 # shutil.rmtree():
+# Deletes an entire directory tree, including all its files and subdirectories.
 
 
 
