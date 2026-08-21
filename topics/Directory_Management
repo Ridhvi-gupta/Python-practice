@@ -132,6 +132,10 @@ print("Directory copied successfully")
 # Deletes an entire directory tree, including all its files and subdirectories.This operation is irreversible. 
 # Syntax : shutil.rmtree(path, ignore_errors=False)
 
+import shutil
+shutil.rmtree("destination_dir")
+print("Directory removed successfully")
+
 
 
 
