@@ -136,6 +136,9 @@ import shutil
 shutil.rmtree("destination_dir")
 print("Directory removed successfully")
 
+# shutil.move(s,d):
+# Moves a file or directory to a new location. If the source and destination are on the same filesystem, this is equivalent to renaming.
+
 
 
 
