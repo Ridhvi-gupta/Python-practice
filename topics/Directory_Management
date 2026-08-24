@@ -140,6 +140,10 @@ print("Directory removed successfully")
 # Moves a file or directory to a new location. If the source and destination are on the same filesystem, this is equivalent to renaming.
 # Syntax : shutil.move(src, dst)
 
+import shutil
+shutil.move("source_dir", "new_location")
+print("Directory moved successfully")
+
 
 
 
