@@ -144,6 +144,8 @@ import shutil
 shutil.move("source_dir", "new_location")
 print("Directory moved successfully")
 
+# Output : Directory moved successfully
+
 
 
 
