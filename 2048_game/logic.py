@@ -1,0 +1,1 @@
+# Implements the game logic, including tile movement, merging, random tile generation, and game state checks.
