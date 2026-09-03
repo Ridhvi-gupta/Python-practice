@@ -15,3 +15,11 @@ def start_game():
 
     add_new_2(mat)
     return mat
+
+def findemoty(mat):
+    """Finds the first empty (0) cell in the grid."""
+    for i in range(4):
+        for j in range(4):
+            if mat[i][j] == 0:
+                return (i, j)
+    return None, None
