@@ -23,3 +23,9 @@ def findemoty(mat):
             if mat[i][j] == 0:
                 return (i, j)
     return None, None
+
+def add_new_2(mat):
+    """Adds a new '2' in a random empty cell in the grid."""
+    if all(all(cell != 0 for cell in row) for row in mat):
+        return
+    
