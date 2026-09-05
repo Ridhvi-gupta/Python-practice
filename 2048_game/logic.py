@@ -28,4 +28,11 @@ def add_new_2(mat):
     """Adds a new '2' in a random empty cell in the grid."""
     if all(all(cell != 0 for cell in row) for row in mat):
         return
-    
+    tries = 0
+    while tries < 30:
+        r = random.randint(0, 3)
+        c = random.randint(0, 3)
+        if mat[r][c] == 0:
+            mat[r][c] = 2
+            return
+        tries += 1
