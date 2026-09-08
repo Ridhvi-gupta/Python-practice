@@ -39,3 +39,8 @@ def add_new_2(mat):
     r, c = findEmpty(mat)
     if r is not None and c is not None:
         mat[r][c] = 2
+def get_current_state(mat):
+    for i in range(4):
+        for j in range(4):
+            if(mat[i][j]== 2048):
+                return 'WON'
