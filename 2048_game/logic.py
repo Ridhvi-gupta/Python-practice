@@ -44,7 +44,11 @@ def get_current_state(mat):
         for j in range(4):
             if(mat[i][j]== 2048):
                 return 'WON'
+            
     for i in range(4):
         for j in range(4):
             if(mat[i][j]== 0):
                 return 'GAME NOT OVER'
+
+    
+            
