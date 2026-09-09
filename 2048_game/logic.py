@@ -50,5 +50,6 @@ def get_current_state(mat):
             if(mat[i][j]== 0):
                 return 'GAME NOT OVER'
 
-    
+    for i in range(4):
+        
             
