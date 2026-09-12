@@ -56,7 +56,13 @@ def get_current_state(mat):
     for j in range(3):
         if(mat[3][j]== mat[3][j + 1]):
             return 'GAME NOT OVER'
-    
+    return 'LOST'
+
+def compress(mat):
+    changed = False
+    new_mat = []
+    for i in range(4):
+        new_mat.append([0] * 4)
 
         
             
