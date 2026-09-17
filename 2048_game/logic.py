@@ -80,6 +80,7 @@ def merge(mat):
                 mat[i][j] = mat[i][j] * 2
                 mat[i][j + 1] = 0
                 changed = True
+            return mat, changed
 
         
             
