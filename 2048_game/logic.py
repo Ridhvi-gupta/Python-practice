@@ -107,6 +107,12 @@ def move_left(grid):
     new_grid, temp = compress(new_grid)
     return new_grid, changed
 
+def move_right(grid):
+    new_grid = reverse(grid)
+    new_grid, changed = move_left(new_grid)
+
+    new_grid = reverse(new_grid)
+    return new_grid, changed
 
         
             
