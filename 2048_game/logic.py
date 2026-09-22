@@ -114,5 +114,11 @@ def move_right(grid):
     new_grid = reverse(new_grid)
     return new_grid, changed
 
+def move_up(grid):
+    new_grid = transpose(grid)
+    new_grid, changed = move_left(new_grid)
+    new_grid = transpose(new_grid)
+    return new_grid, changed
+
         
             
