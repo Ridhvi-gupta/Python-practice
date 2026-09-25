@@ -11,3 +11,5 @@ while(True):
         mat, flag = logic.move_up(mat)
         status = logic.get_current_state(mat)
         print(status)
+
+        if
