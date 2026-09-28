@@ -26,5 +26,5 @@ while(True):
             logic.add_new_2(mat)
         else:
             break 
-    
-      
+
+    elif(x == 'S' or x == 's'):
