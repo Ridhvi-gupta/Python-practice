@@ -25,4 +25,6 @@ while(True):
         if(status == 'GAME NOT OVER'):
             logic.add_new_2(mat)
         else:
-            break   
+            break 
+    
+      
