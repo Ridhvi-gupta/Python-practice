@@ -21,3 +21,8 @@ while(True):
         mat, flag = logic.move_down(mat)
         status = logic.get_current_state(mat)
         print(status)
+
+        if(status == 'GAME NOT OVER'):
+            logic.add_new_2(mat)
+        else:
+            break   
