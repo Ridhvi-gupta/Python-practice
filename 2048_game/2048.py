@@ -28,4 +28,6 @@ while(True):
             break 
 
     elif(x == 'S' or x == 's'):
-        
+        mat, flag = logic.move_down(mat)
+        status = logic.get_current_state(mat)
+        print(status)
