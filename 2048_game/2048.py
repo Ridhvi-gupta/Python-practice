@@ -37,4 +37,7 @@ while(True):
         else:
             break
 
-    
+    elif(x == 'A' or x == 'a'):
+        mat, flag = logic.move_left(mat)
+        status = logic.get_current_state(mat)
+        print(status)
