@@ -33,3 +33,8 @@ while(True):
         print(status)
 
         if(status == 'GAME NOT OVER'):
+            logic.add_new_2(mat)
+        else:
+            break
+
+    
