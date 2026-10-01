@@ -41,3 +41,8 @@ while(True):
         mat, flag = logic.move_left(mat)
         status = logic.get_current_state(mat)
         print(status)
+
+        elif(x == 'D' or x == 'd'):
+        mat, flag = logic.move_right(mat)
+        status = logic.get_current_state(mat)
+        print(status)
