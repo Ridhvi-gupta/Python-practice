@@ -54,3 +54,5 @@ while(True):
 
     else:
         print("Invalid Key Pressed")
+        
+    print(mat)
