@@ -1,6 +1,6 @@
 # This is the main driver file to run the game.
 # 2048 is a single-player puzzle game in which tiles with the same value are combined to create a tile with the value 2048.
-# The game can be implemented in Python using a 4×4 matrix,
+# The game can be implemented in Python using a 4×4 matrix,with all game operations performed through the console
 
 import logic
 
