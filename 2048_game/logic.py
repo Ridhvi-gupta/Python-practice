@@ -1,5 +1,6 @@
 # Implements the game logic, including tile movement, merging, random tile generation, and game state checks.
 # This file contains all the helper functions required for the game logic.
+
 import random
 
 def start_game():
