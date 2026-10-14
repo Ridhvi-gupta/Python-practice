@@ -4,7 +4,6 @@
 # The game can be implemented in Python using a 4×4 matrix,with all game operations performed through the console without requiring a graphical user interface (GUI).
 
 import logic
-
 if __name__ == '__main__':
         mat = logic.start_game()
 
